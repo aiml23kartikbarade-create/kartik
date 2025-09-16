@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kartik barade| Student Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 2rem;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1rem;
+        }
+
+        .container {
+            padding: 2rem;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        section {
+            margin-bottom: 3rem;
+        }
+
+        h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 0.5rem;
+        }
+
+        .projects, .skills {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .project, .skill {
+            background: #fff;
+            padding: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #333;
+            color: #fff;
+        }
+
+        @media (max-width: 600px) {
+            nav {
+                display: flex;
+                flex-direction: column;
+                gap: 0.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Kartik Barade</h1>
+        <p>Student | Web Developer | Tech Enthusiast</p>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <div class="container">
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I'm Kartik, a passionate student with interests in web development, programming, and technology. I enjoy learning new things and building projects that solve real-world problems.</p>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="projects">
+                <div class="project">
+                    <h3>Portfolio Website</h3>
+                    <p>A responsive personal website to showcase my skills and projects.</p>
+                </div>
+                <div class="project">
+                    <h3>Todo App</h3>
+                    <p>A simple JavaScript-based todo app with local storage support.</p>
+                </div>
+                <div class="project">
+                    <h3>Weather App</h3>
+                    <p>Fetches real-time weather data using an API and displays it dynamically.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skills">
+                <div class="skill">HTML5</div>
+                <div class="skill">CSS3</div>
+                <div class="skill">JavaScript</div>
+                <div class="skill">Python</div>
+                <div class="skill">C/C++</div>
+                <div class="skill">Git & GitHub</div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:omkarb@example.com">kartik@example.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/kartikbarade" target="_blank">omkarbhosale</a></p>
+            <p>GitHub: <a href="https://github.com/omkarbhosale" target="_blank">github.com/kartikbarade</a></p>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2025 kartikbarade. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
